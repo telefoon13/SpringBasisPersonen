@@ -5,7 +5,7 @@
 http://www.springframework.org/schema/beans/spring-beans.xsd'>
 
     <bean class="be.vdab.PersoonServiceImpl" id="persoonService">
-        <constructor-arg ref="persoonRepositoryCSV"/>
+        <constructor-arg ref="persoonRepositoryTXT"/>
     </bean>
 
 </beans>
