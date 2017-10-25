@@ -6,14 +6,14 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd'>
-    <context:property-placeholder location="classpath:databestanden.properties"/>
+    <context:property-placeholder location="databestanden.properties"/>
 
         <bean class="be.vdab.PersoonRepositoryCSV" id="persoonRepositoryCSV">
-            <constructor-arg value="file://c:/data/personen.csv"/>
+            <constructor-arg value="${persoonCSV}"/>
         </bean>
 
         <bean class="be.vdab.PersoonRepositoryTXT" id="persoonRepositoryTXT">
-            <constructor-arg value="file://c:/data/personen.txt"/>
+            <constructor-arg value="${persoonTXT}"/>
         </bean>
 
 </beans>
