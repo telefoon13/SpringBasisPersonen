@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class PersoonRepositoryCSV implements PersoonRepository {
+class PersoonRepositoryCSV implements PersoonRepository {
 
 	private final File file;
 

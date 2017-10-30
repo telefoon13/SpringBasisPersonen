@@ -1,9 +1,8 @@
 package be.vdab;
 
 import java.io.IOException;
-import java.util.List;
 
-public class PersoonViewer {
+class PersoonViewer {
 
 	private final PersoonEigenschappen[] eigenschappen;
 	private final PersoonService persoonService;

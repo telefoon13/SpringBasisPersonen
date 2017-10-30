@@ -1,6 +1,6 @@
 package be.vdab;
 
-public class Persoon {
+class Persoon {
 
 	private int persoonNr;
 	private String voornaam;
